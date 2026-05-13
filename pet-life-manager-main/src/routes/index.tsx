@@ -1516,7 +1516,7 @@ function Index() {
               </div>
             </div>
             {!userId && (
-              <Link to="/auth" className="block rounded-2xl border border-dashed border-primary/50 bg-primary/5 p-4 text-center text-sm font-semibold text-primary">
+              <Link to="/login" className="block rounded-2xl border border-dashed border-primary/50 bg-primary/5 p-4 text-center text-sm font-semibold text-primary">
                 ☁️ {language === "pt" ? "Entre para sincronizar entre dispositivos" : "Sign in to sync across devices"}
               </Link>
             )}
